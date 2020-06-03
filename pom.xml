@@ -12,15 +12,14 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <!-- Component versions are defined here -->
-    <hadoop.version>2.7.1.2.4.2.0-258</hadoop.version>
-    <hbase.version>1.1.2.2.4.2.0-258</hbase.version>
+    <hadoop.version>3.0.0</hadoop.version>
+    <hbase.version>2.1.0-cdh6.1.0</hbase.version>
   </properties>
 
   <repositories>
     <repository>
-      <id>HDP-public</id>
-      <name>Hortonworks public groups repo</name>
-      <url>http://repo.hortonworks.com/content/groups/public/</url>
+      <id>cloudera</id>
+      <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
     </repository>    
   </repositories>
 
